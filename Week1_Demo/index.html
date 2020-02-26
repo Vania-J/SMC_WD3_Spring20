@@ -11,7 +11,46 @@
     <title>Bootstrap Grid and Navigation</title>
   </head>
 
+  <style>
+      .navbar-brand img{
+        max-width: 75px;
+      }
+
+
+  </style>
+
   <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-info">
+        <a class="navbar-brand" href="#">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/notion-1693557-1442598.png" alt="logo brand image">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+           
+          </ul>
+         
+        </div>
+      </nav>
+
     <!--simple grid structure-->
     <div class="container">
         <div class="row">
