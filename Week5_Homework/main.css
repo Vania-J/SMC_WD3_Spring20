@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Yanone+Kaffeesatz:400,500,600,700&display=swap');
+
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-info {
+    color: #1712b8 !important;
+}
+
+.navbar-brand {
+    color: #f48702;
+}
+
+.bg-darkgreen {
+    background-color:  #234c02 ;
+}
+
+.bg-orange {
+    background-color: #f48702;
+}
+
+.bg-yellow {
+    background-color: #f4bb35;
+}
+
+
+.bg-greyolive {
+    background-color: #3a3e3b;
+}
+
+.bg-offwhite {
+    background-color: #f0eff4;
+}
+
+
+.text-darkgreen {
+    color:  #234c02 ;
+}
+
+.text-orange {
+   color: #f48702;
+}
+
+
+.text-yellow {
+    color: #f4bb35;
+}
+
+.text-greyolive {
+    color: #3a3e3b;
+}
+
+.text-offwhite {
+    color: #f0eff4;
+}
+
+
+.f-roboto , p{
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.f-Yanone{
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.jumbotron h1{
+    font-weight: 600;
+}
+
+.card h5 {
+    font-weight: 700;
+}
+
+a .navbar-brand {
+    font-weight: 700;
+}
+
