@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="">
     <header></header>
     <main>
         <div class="container">
@@ -85,6 +85,7 @@
     <script>
         var targetInput = document.getElementById("exampleInputEmail1");
 
+
         targetInput = addEventListener ("click", function() {
             console.log(targetInput.value)
 
@@ -93,6 +94,15 @@
             }
             
         })
+
+        $("#exampleInputEmail1").click(function(){
+            if($("#exampleInputEmail1").val() !== "#exampleInputEmail1"){
+                $("#exampleInputEmail1").after('<div class= "alert alert-danger-" role="alert">\
+                    A simpledanger alert-check it out!\')   
+            }
+        }
+
+
     </script>
 
 </body>
