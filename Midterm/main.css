@@ -31,10 +31,8 @@ nav li a {
   
 nav li a:hover{
     font-size:  2.0rem;
-    background-color: #FAA613;
-    color: #B12932;
-    margin:0px;
-    padding:0px;
+   color: #7d0c5c;
+  
 }
 
 nav li a:active{
