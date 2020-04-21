@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700&display=swap');
+
+
+body{
+    padding: 0px;
+}
+
+/* main{
+    background-color: #ececec;
+} */
+
+nav{
+    height: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand { 
+    font-family: 'Fugaz One', cursive;
+    font-size: 2.0rem;
+}
+
+nav li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+}
+  
+nav li a:hover{
+    font-size:  2.0rem;
+    background-color: #FAA613;
+    color: #B12932;
+    margin:0px;
+    padding:0px;
+}
+
+nav li a:active{
+    
+    color: #B12932;
+   
+}
+
+.review-icon{
+    font-size:  4.5rem;
+}
+
+.jumbotron{
+    margin-bottom: 0rem;
+    background-image: url("Remote-Worker-img.jpg");
+    background-size: cover;
+    height: 30rem;
+}
+
+.jumbotron h1{
+    font: 40px  'Montserrat', sans-serif;
+}
+
+
+.jumbotron h4{
+    font-weight: 500 ;
+}
+
+
+.jumbotron p{
+    max-width: 700px;
+    font-weight: 500;
+   
+}
+
+#myModal{
+    background-image: url(https://d9v4h7ffge8st.cloudfront.net/en/~/media/Images/Microsite%20Images/Video%20Conferencing%20Overview/Video%20Conferencing%20Hub_Header%20Image-min.jpg);
+    background-size: cover;
+}
+
+.modal-content{
+    background-color: #ececec;
+}
+
+
+
+.services-cards h4{
+    font-size: 1.5rem;
+}
+
+
+/*--------------------------------------------------  COLORS START -------------------------------------------------- */
+
+.bg-ltgrey{
+    background-color: #ececec;
+}
+
+.text-grey{
+    color:   #ececec;
+}
+
+
+.text-red{
+    color: #B12932;
+
+}
+
+.bg-red{
+    background-color: #B12932 ;
+}
+
+.bg-green{
+    background-color: #668E26;
+}
+
+.text-green{
+    color: #668E26;
+}
+
+.bg-ltgreen{
+    background-color: #98CA47;
+}
+
+.text-ltgreen{
+    color: #98CA47;
+}
+
+.bg-dprdpur{
+    background-color: #550527;
+}
+
+.text-dprdpur{
+    color: #550527;
+}
+
+bg-rdpur{
+    background-color: #7d0c5c;
+}
+
+.text-rdpur{
+    color: #7d0c5c;
+}
+
+.bg-gldyel{
+    background-color: #FAA613 ;
+}
+
+.text-gldyel{
+    color: #FAA613;
+}
+
+.fa-hand-holding-usd,.fa-praying-hands,.fa-leaf,.fa-clipboard-list,.fa-running,.fa-kiss-wink-heart{
+    color: #FAA613;   
+}
+
+.fa-star {
+	color:gold;
+}
+
+.fa-check{
+   color: #668E26;  
+}
+
+.fa-times{
+   color: #B12932;  
+}
+
+.fa-user ,.fa-twitter-square,.fa-linkedin,.fa-facebook-square,.fa-youtube-square{
+  color: #7d0c5c;  
+}
+
+
+.topic-cards .card{
+    background-color: #ececec /*#550527*/;
+    border-radius: .65rem;
+}
+
+.topic-cards .card .btn{
+    border-radius: 0.40rem;
+}
+
+/*--------------------------------------------------  COLORS END -------------------------------------------------- */
+
+
+/*-------------------------------------------------- CUSTOMIZED THE CAROUSEL START-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 10rem;
+    background-color: #668E26 !important;
+    border-radius: 0.40rem;
+  }
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 25rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 25rem;
+  }
+ 
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  /*--------------------------------------------------  CUSTOMIZED THE CAROUSEL END -------------------------------------------------- */
+
+
+ 
+
+
+/*--------------------------------------------------  CALENDAR START -------------------------------------------------- */
+
+@media (max-width:575px) {
+  .display-4 {
+      font-size: 1.5rem;
+  }
+  .day h5 {
+      background-color: #f8f9fa;
+      padding: 3px 5px 5px;
+      margin: -8px -8px 8px -8px;
+  }
+  .date {
+      padding-left: 4px;
+  }
+}
+
+@media (min-width: 576px) {
+  .day {
+      height: 14.2857vw;
+  }
+}
+/*--------------------------------------------------  CALENDAR START -------------------------------------------------- */
+
+
+
+
