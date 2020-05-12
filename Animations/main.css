@@ -95,3 +95,30 @@ body {
 }
 
 /*------------------ BOOTSTRAP COVER PAGE ENDS---------------------------*/
+
+body{
+    background-color: #ff7800 ;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   position: relative;
+  }
+
+
+.brand-text{
+    font-family: 'Carter One', cursive;
+}
+
+#home_h1{
+    font-size: 4.5rem;
+}
+
+#home_p{
+    font-size: 1.3rem;  
+}
